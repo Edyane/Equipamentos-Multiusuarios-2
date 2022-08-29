@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .navbar-brand {
-    color: #0b0270;
-    font-family: 'Roboto', sans-serif;
+    color: #3562FF;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 800;
 }
@@ -27,7 +27,7 @@
 }
 
 h1 {
-    color: #0b0270;
+    color: #3562FF;
     padding-top: 150px;
     font-family: 'Poppins', sans-serif;
     font-size: 65px;
@@ -37,56 +37,57 @@ h1 {
 .description {
     color: #787878;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px; 
-    
+    font-size: 16px;     
 }
 
 .sign-up-btn {
-    background-color: #44d0dc;
+    background-color: #00BC7D;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;    
-    font-weight: bold;
-    width: 150px;
+    font-weight: 800;
+    width: 140px;
     height: 40px;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .sign-up-btn:hover {
-    background-color: #9BE3E2;
+    background-color: #29A179;
 }
 
 .welcome-section {
+    background-color: #ffffff;
     padding: 45px;
 }
 
 h6 {
-    color: #0b0270;
+    color: #3562FF;
     font-family:'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
 }
 
 .about-section {
-    background-color: #F0F1F6;
+    background-image: url(../images/bg-about.svg);   
+    background-size: cover;
     padding-top: 45px;
-    min-height: 490px;
+    min-height: 400px;
 }
 
 .about-description {
-    color: #89898b;    
-    font-family:'Poppins', sans-serif;
-    font-size: 16px;
-    text-align: justify;     
-}
+    color: #787878;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;     
+}     
 
 h5 {
-    color: #36303C;
+    color: #29A179;
     padding-top: 15px;
 }
 
 .equip-section {
+    background-color: #ffffff;
     padding: 45px;    
 }
 
@@ -97,102 +98,58 @@ h5 {
     font-family:'Poppins', sans-serif;
     font-size: 16px;
     text-align: justify;     
-    width: 200px;
+    width: 250px;
+    padding: 11px;
     min-height: 300px; 
 }
 
 .read-more-btn {
     background-color: transparent;
-    color: #0b0270;
+    color: #3562FF;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;    
     font-weight: bold;
     width: 150px;
     height: 40px;
-    border: 1px solid #0b0270;
-    border-radius: 30px;
+    border: 1px solid #3562FF;
+    border-radius: 5px;    
 }  
 
 .read-more-btn:hover {
-    color: #36303C;
+    color: #15247C;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.advanced-section {
-    background-color: #F0F1F6;
-    padding-top: 45px;
-    min-height: 490px;
+.labs-section {
+    background-color: #f7f7f7;
+    padding: 50px;
+    min-height: 500px;
 }
 
-.advanced-paragraph {    
+.labs-paragraph {    
     color: #89898b;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px; 
-    font-weight: 500;   
-    padding-top: 15px;
+    font-size: 16px;        
+    padding-top: 25px;
     padding-bottom: 35px; 
 }
 
-
-
-.boost-section {
-    background-color: #3A3053;
-    background-image: url(../images/Header\ .png);   
-    background-size: cover;
-    min-height: 200px;
+.labs-col {
+    background-color: #f7f9f8;  
+    color: #89898b;  
+    margin: 30px;   
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: justify;     
+    width: 250px;
+    padding: 10px;
+    min-height: 300px; 
 }
 
-.boost-title {
-    padding-top: 35px;    
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-    font-weight: bold;
+.border-col {
+    border-left: 1px solid rgba(200, 196, 196, 0.957);
+    border-right: 1px solid rgb(171, 170, 170);
 }
+
 
 footer {
     background-color: #36303C;    
