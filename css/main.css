@@ -147,6 +147,37 @@ h5 {
     min-height: 300px; 
 }
 
+.rules-section {
+    background-color: #e7e8ea;   
+    padding-top: 45px;
+    min-height: 540px;
+}
+
+.management-section {
+    background-color: #f7f9f8;
+    padding-top: 45px;
+    min-height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: #036b48ab;    
     color: #fff;
@@ -169,3 +200,4 @@ footer {
 .social-media {
     padding-right: 15px;
 }
+
