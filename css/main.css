@@ -148,9 +148,11 @@ h5 {
 }
 
 .rules-section {
+    background-image: url(../images/Untitled.svg);   
+    background-size: cover;
     background-color: #e7e8ea;   
     padding-top: 45px;
-    min-height: 540px;
+    min-height: 400px;
 }
 
 .management-section {
